@@ -16,10 +16,12 @@ public class VowelConsonant {
             if(alpha==vow[i])
             {
                 System.out.println(alpha+" is a vowel.");
+                break;
             }
             else
             {
                 System.out.println(alpha+" is a consonant.");
+                break;
             }
         }
     }
